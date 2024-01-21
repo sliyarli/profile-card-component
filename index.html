@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- STYLE FILES -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/flexbox-utilities.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="d-flex flex-justify-center flex-items-center">
+    <div class="profile-card d-flex flex-column">
+      <div class="card-bg"></div>
+      <div class="card-content d-flex flex-column flex-justify-evenly flex-items-center">
+        <img
+          src="./assets/images/image-victor.jpg"
+          alt=""
+          class="profile-image"
+        />
+        <div class="user-info d-flex flex-items-baseline">
+          <h3 class="username">Victor Crest</h3>
+          <h3 class="user-age">26</h3>
+        </div>
+        <small class="user-city">London</small>
+        <hr />
+        <div class="user-social-data d-flex flex-justify-between">
+          <div class="followers">
+            <h3 class="data">80K</h3>
+            <small class="data-name">Followers</small>
+          </div>
+          <div class="likes">
+            <h3 class="data">803K</h3>
+            <small class="data-name">Likes</small>
+          </div>
+          <div class="photos">
+            <h3 class="data">1.4K</h3>
+            <small class="data-name">Photos</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
